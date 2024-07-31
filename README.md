@@ -11,19 +11,21 @@
 
 3. Activate the virtual environment:
 
-On Windows:
-    ```sh
-    venv\Scripts\activate
+   On Windows:
+   
+       venv\Scripts\activate
+   
+   On macOS/Linux:
+   
+       source venv/bin/activate
 
-On macOS/Linux:
-    ```sh
-    source venv/bin/activate
+4. Install the dependencies:
 
-Install the dependencies:
     ```sh
     pip install -r requirements.txt
 
-Run the application:
+5. Run the application:
+
     ```sh
     python manage.py runserver
 
